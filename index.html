@@ -437,23 +437,28 @@
                 </button>
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                 <form action="#" class="modal-form">
-                  <label for="name" class="form-input-text">Имя</label>
+                  <div class="modal-field">
+                  <label for="user-name" class="form-input-text">Имя</label>
                   <input type="name" class="modal-form-input" 
-                  name="user-name" id="name" 
+                  name="user-name" id="user-name" 
                   required
                   minlength="2" 
                   >
-                  <label for="tel" class="form-input-text">Телефон</label>
+                  </div>
+                  <div class="modal-field">
+                  <label for="user-tel" class="form-input-text">Телефон</label>
                   <input type="tel" class="modal-form-input"
-                  name="user-tel" id="tel"
+                  name="user-tel" id="user-tel"
                   required  
                   >
-                  <label for="email" class="form-input-text">Почта</label>
+                  </div>
+                  <div class="modal-field">
+                  <label for="user-email" class="form-input-text">Почта</label>
                   <input type="email" class="modal-form-input"
-                  name="user-email" id="email"
+                  name="user-email" id="user-email"
                   required  
                   >
-                  
+                  </div>
                   <button type="submit">Отправить</button>
                   
                 </form>

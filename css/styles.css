@@ -730,6 +730,10 @@ color: #212121;
 margin-bottom: 30px;
 }
 
+.modal-field {
+  margin-bottom: 10px;
+}
+
 .modal-form-input {
 width: 448px;
 height: 40px;
@@ -738,7 +742,6 @@ top: 314px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
-margin-bottom: 10px;
 padding-left: 12px;
 padding-right: 12px;
 color: var(--main-text-color);
@@ -768,7 +771,6 @@ letter-spacing: 0.01em;
 color: #757575;
 margin-bottom: 4px;
 display: block;
-
 }
 
 
