@@ -465,12 +465,27 @@
                   class="modal-form-text"
                   placeholder="Введите текст"></textarea>
                   </div>
-                  <fieldset>
-                    <legend></legend>
-                  <label for="boxing"></label>
-                  <input type="checkbox" name="" value="boxing">
-                  </fieldset>
-                  <button type="submit" class="hero-btn-item">Отправить</button>
+                  <div class="modal-field">
+                        <input
+                            type="checkbox"
+                            name="policy"
+                            id="policy"
+                            class="modal-check visually-hidden"
+                        />
+                        <label for="policy" class="check-text">
+                            <span class="check-item">
+                                <svg class="check-icon" width="11" height="8">
+                                    <use
+                                        href="./images/icons.svg#icon-vector"
+                                    ></use>
+                                </svg>
+                            </span>
+                            Соглашаюсь с рассылкой и принимаю  <span><a href="">
+                            Условия договора</a></span> 
+                            </label>
+                        </label>
+                    </div>
+                  <button type="submit" class="btn-modal-btn">Отправить</button>
                   
                 </form>
 
