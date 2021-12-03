@@ -668,6 +668,24 @@ color: #FFFFFF;
   color: var(--main-title-color);
 }
 
+/* ---------Подпишитесь на рассылку----- */
+
+.social-newsletter-title{
+  margin-left: 93px;
+}
+
+.social-newsletter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
 /* -------Модальное окно--------- */
 .backdrop {
     width: 100vw;
@@ -784,7 +802,7 @@ display: block;
 }
 
 .check-item {
-  position: absolute;
+  /* position: absolute; */
   width: 16px;
   height: 15px;
   border: 0.2px solid #FFFFFF;
