@@ -626,7 +626,7 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -672,19 +672,57 @@ color: #FFFFFF;
 
 .social-newsletter-title{
   margin-left: 93px;
+  
+
 }
 
 .social-newsletter {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
+.online-input {
+width: 358px;
+height: 50px;
+left: 815px;
+top: 2787px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: #2F303A;
+padding-left: 16px;
+outline: none;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.25
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #FFFFFF99;
+
+}
+
+.online-input::placeholder {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* .online-email {
+  
+} */
 
 /* -------Модальное окно--------- */
 .backdrop {
@@ -741,7 +779,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
-line-height: 23px;
+line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -784,7 +822,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 14px;
+line-height: 1.17;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);;
 }
@@ -794,7 +832,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 14px;
+line-height: 1.17;
 letter-spacing: 0.01em;
 color: #757575;
 margin-bottom: 4px;
@@ -826,7 +864,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 
@@ -929,7 +967,7 @@ color: #757575;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.56;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   transform: translateY(100%);
