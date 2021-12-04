@@ -907,14 +907,26 @@ padding-right: 12px;
 margin-bottom: 4px;
 display: block;
 }
+/* ---------Чекбокс---------- */
+
+.check-text {
+  /* position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal; */
+  font-size: 14px;
+  /* line-height: 1.71;
+  letter-spacing: 0.03em; */
+  color: #757575;
+  display: flex;
+  margin-bottom: 30px;
+}
 
 .check-item {
-  /* position: absolute; */
   width: 16px;
   height: 15px;
-  border: 0.2px solid #FFFFFF;
+  border: 2px solid #212121;
   border-radius: 2px;
-  background: #2196F3;
   margin-right: 7px;
   display: flex;
   align-items: center;
@@ -923,27 +935,17 @@ display: block;
 
 .check-icon {
   fill:#ffffff;
-  
 }
 
-.check-text {
-position: relative;
-display: flex;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
-margin-bottom: 30px;
-
+.modal-check:checked + .check-text .check-item {
+  background-color: var(--accent-color);
+  border: none;
 }
 
 .link-policy {
   color: var(--accent-color);
-  
 }
+
 .btn-modal-btn {
   width: 200px;
   height: 50px;
