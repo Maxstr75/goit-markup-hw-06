@@ -724,6 +724,13 @@ color: rgba(255, 255, 255, 0.6);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.send {
+  position: relative;
+  display: flex;
+}
+
+
+
 .online-btn {
   width: 200px;
   height: 50px;
@@ -741,6 +748,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
+  position: relative;
 }
 
 .online-btn:hover,
@@ -749,8 +757,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color:#188CE8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
+.send-icon {
+  position: absolute;
+  transform: translate(-150%, 50%);
+    
+    
+  
+}
 
 /* -------Модальное окно--------- */
 .backdrop {
@@ -818,19 +831,30 @@ margin-bottom: 30px;
   margin-bottom: 10px;
 }
 
+.input-wrup {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .modal-form-input {
-width: 448px;
-height: 40px;
-left: 576px;
-top: 314px;
-border: 1px solid rgba(33, 33, 33, 0.2);
-box-sizing: border-box;
-border-radius: 4px;
-padding-left: 12px;
-padding-right: 12px;
-color: var(--main-text-color);
-font-weight: normal;
-outline: none;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 12px;
+  color: var(--main-text-color);
+  font-weight: normal;
+  outline: none;
 }
 
 .modal-form-text {
@@ -874,7 +898,7 @@ display: block;
   border: 0.2px solid #FFFFFF;
   border-radius: 2px;
   background: #2196F3;
-  margin-right: 8.38px;
+  margin-right: 7px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -882,12 +906,12 @@ display: block;
 
 .check-icon {
   fill:#ffffff;
+  
 }
-
-
 
 .check-text {
 position: relative;
+display: flex;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -895,11 +919,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+margin-bottom: 30px;
 
 }
 
 .link-policy {
   color: var(--accent-color);
+  
 }
 .btn-modal-btn {
   width: 200px;
