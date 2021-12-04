@@ -751,10 +751,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 
-.online-btn:hover,
+/* .online-btn:hover, */
 .online-btn:focus {
   color: var(--main-btn-color);
-  background-color:#188CE8;
+  background-color:#2196F3;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .send-icon {
@@ -809,6 +809,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
 }
 
+.modal-close-icon:hover {
+  fill:var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -855,7 +860,18 @@ margin-bottom: 30px;
   color: var(--main-text-color);
   font-weight: normal;
   outline: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-form-input:focus {
+  border-color: #2196F3;
+}
+
+.modal-form-input:focus + .input-icon {
+  fill: var(--accent-color);
+}
+
+
 
 .modal-form-text {
 width: 448px;
@@ -867,6 +883,7 @@ box-sizing: border-box;
 border-radius: 4px;
 resize: none;
 padding: 12px 16px;
+outline: none;
 }
 
 .modal-form-text::placeholder {
@@ -877,6 +894,11 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);;
+}
+
+.modal-form-text:focus {
+  border-color: #2196F3;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input-text {
@@ -947,14 +969,14 @@ margin-bottom: 30px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .btn-modal-btn:hover,
+.btn-modal-btn:hover,
 .btn-modal-btn:focus {
   color: var(--main-btn-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   background-color:#188CE8;
-} */
+}
 
 /*---------------Портфолио-------*/
 /*---------------Шапка---------*/
